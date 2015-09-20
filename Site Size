@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=400">
+    <style>
+      body{margin:0px;}
+      #topscreen{width:400px;height:220px;overflow:hidden;}
+      #bottomscreen{width:320px;height:212px;overflow:hidden;margin:0 auto;}
+    </style>
+  </head>
+  <body>
+    <div id="topscreen">Top Screen</div>
+    <div id="bottomscreen">Bottom Screen</div>
+  </body>
+</html>

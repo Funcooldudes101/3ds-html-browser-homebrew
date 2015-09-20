@@ -1,0 +1,25 @@
+function keydetect(e) {
+if (e) {
+var whichone = (e.which);
+}
+if (!e) {
+e = event
+var whichone = (e.keyCode);
+}
+if (whichonetwo == 13) {
+alert("You pressed the A button!");
+}
+if (whichonetwo == 37) {
+alert("You pressed left on the D-pad!");
+}
+if (whichonetwo == 38) {
+alert("You pressed up on the D-pad!!");
+}
+if (whichonetwo == 39) {
+alert("You pressed right on the D-pad!");
+}
+if (whichonetwo == 40) {
+alert("You pressed down on the D-pad!");
+}
+}
+document.onkeyup = keydetect;
